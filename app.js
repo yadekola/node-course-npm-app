@@ -1,9 +1,9 @@
 // npm validator
-// const validator = require('validator')
+const validator = require('validator')
 
-// console.log(validator.isEmail('test@example.com')) // true)
-// console.log(validator.isEmail('example.com')) // false)
-// console.log(validator.isURL('https://www.example.com')) // true)
+console.log(validator.isEmail('test@example.com')) // true)
+console.log(validator.isEmail('example.com')) // false)
+console.log(validator.isURL('https://www.example.com')) // true)
 // console.log(validator.isURL('http/www.example.com')) // false)
 // console.log(validator.isAlpha('abcdefghijklmnopqrstuvwxyz')) // true)
 // console.log(validator.isAlpha('abcdefghijk123456789lmnopqrstuvwxyz')) // false)
